@@ -72,6 +72,11 @@
             <layout>default</layout>
             <name>Repository for library Library[eclipselink]</name>
         </repository>
+        <repository>
+            <id>glassfish-repo</id>
+            <url>http://download.java.net/maven/glassfish/</url>
+            <name>Repository for glassfish artifacts</name>
+        </repository>
     </repositories>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
